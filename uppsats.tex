@@ -1,4 +1,4 @@
-\documentclass[titlepage, a4paper]{article}
+\documentclass[titlepage, a4paper, 12pt]{article}
 \usepackage[swedish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
@@ -11,14 +11,18 @@
 \usepackage{listings}
 \usepackage[table]{xcolor}
 \usepackage{enumitem}
-
+\usepackage{setspace}
 \usepackage{fancyhdr}
+
+\onehalfspacing 
+
 \fancyhead[L]{}
 \pagestyle{fancy}
 \lhead{Teknikhistoria}
 \rhead{Dennis Ljung}
 \chead{Den glupska människan}
 \thispagestyle{empty}
+
 
 \begin{document}
 
@@ -32,7 +36,7 @@
 	 \vspace{10mm}
 	 \Huge \textbf{Den glupska människan} \par
 	 \vspace{5mm}
-	 \huge Köttindustrin då och nu \par
+	 \huge Köttindustrin nu och då \par
 	 \vspace{15mm}
 	 \Large \emph{Dennis Ljung} \par
 	 \vspace{5mm}
@@ -46,8 +50,8 @@
 \thispagestyle{empty}
 \newpage
 
-\section{sammanfattning}
-
-
+\input{tex/inledning}
+\input{tex/bakgrund}
+\input{tex/teori}
 
 \end{document}
