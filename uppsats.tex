@@ -14,7 +14,10 @@
 \usepackage{enumitem}
 \usepackage{setspace}
 \usepackage{fancyhdr}
+\usepackage[round]{natbib}
+\usepackage{url}
 
+\bibliographystyle{apalike}
 \onehalfspacing 
 
 \fancyhead[L]{}
@@ -54,5 +57,8 @@
 \input{tex/teori}
 \input{tex/resultat}
 \input{tex/diskussion}
+
+\addcontentsline{toc}{section}{Referenser}
+\bibliography{tex/refs}{}
 
 \end{document}
